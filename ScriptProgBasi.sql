@@ -1,6 +1,6 @@
-CREATE DOMAIN TIPO as VARCHAR(10)
+CREATE DOMAIN TIPO as VARCHAR(4)
 CHECK(VALUE IN('c_s', 'c_ar' ,'a_s' ,'a_m'));
-CREATE DOMAIN MARCIA as VARCHAR(10)
+CREATE DOMAIN MARCIA as VARCHAR(7)
 CHECK(VALUE IN('diretto', 'inverso'));
 
 CREATE TABLE Biglietto (
@@ -12,10 +12,14 @@ Importo INT NOT NULL,
 Tipo TIPO NOT NULL,
 CF VARCHAR(16) NOT NULL REFERENCES Cliente(CF),
 CF_Abb VARCHAR(16) REFERENCES Cliente(CF),
-Nome_P VARCHAR(40) NOT NULL REFERENCES Fermata(Nome),
-Codice_P INT NOT NULL REFERENCES Fermata(Codice),
-Nome_A VARCHAR(40) NOT NULL REFERENCES Fermata(Nome),
-Codice_A INT NOT NULL REFERENCES Fermata(Codice));
+Nome_P VARCHAR(40) NOT NULL,
+Codice_P INT NOT NULL,
+Nome_A VARCHAR(40) NOT NULL,
+Codice_A INT NOT NULL,
+FOREIGN KEY(Nome_P,Codice_P)
+REFERENCES Fermata(Nome,Codice),
+FOREIGN KEY(Nome_A,Codice_A)
+REFERENCES Fermata(Nome,Codice));
 
 CREATE TABLE Cliente (
 CF VARCHAR(16) PRIMARY KEY,
@@ -50,14 +54,13 @@ Nome VARCHAR(40),
 Codice INT REFERENCES Linea(Codice),
 PRIMARY KEY(Nome, Codice));
 
-CREATE TABLE B/L(
+CREATE TABLE B_L(
 Cod_Emissione INT REFERENCES Biglietto(Cod_Emissione),
 Codice_Linea INT REFERENCES Linea(Codice),
 PRIMARY KEY(Cod_Emissione, Codice_Linea));
 
-CREATE TABLE C/F(
+CREATE TABLE C_F(
 Codice_Linea INT REFERENCES Linea(Codice),
 Nome VARCHAR(40) REFERENCES Fermata(Nome),
 Orario TIME NOT NULL, 
 PRIMARY KEY(Nome, Codice_Linea));
-
