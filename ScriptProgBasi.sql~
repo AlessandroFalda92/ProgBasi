@@ -3,6 +3,7 @@ CHECK(VALUE IN('c_s', 'c_ar' ,'a_s' ,'a_m'));
 CREATE DOMAIN MARCIA as VARCHAR(10)
 CHECK(VALUE IN('diretto', 'inverso'));
 
+
 CREATE TABLE Biglietto (
 Cod_Emissione INT PRIMARY KEY, 
 Data_Emissione DATE NOT NULL, 
