@@ -28,16 +28,16 @@ INSERT INTO Linea VALUES (138, 75 , 'Porto di Legnago' , 'Verona-Aut. P.ta Nuova
 INSERT INTO Linea VALUES (154, 30 ,'Porto di Legnago' , 'Castelmassa'); 
 
 --insert into Corsa (Senso_Marcia, Orario_Partenza, Orario_Arrivo, Codice) MARCIA TIME TIME INT
-INSERT INTO Corsa VALUES ('diretto', '06:00:00','07:25:00', 144);
-INSERT INTO Corsa VALUES ('inverso', '06:45:00','08:00:00', 144);
-INSERT INTO Corsa VALUES ('diretto', '08:00:00','09:25:00', 144);
-INSERT INTO Corsa VALUES ('diretto', '08:45:00','10:00:00', 144);
-INSERT INTO Corsa VALUES ('inverso', '09:10:00','10:35:00', 144);
-INSERT INTO Corsa VALUES ('diretto', '12:00:00','13:25:00', 144);
-INSERT INTO Corsa VALUES ('diretto', '13:05:00','13:30:00', 144);
-INSERT INTO Corsa VALUES ('inverso', '13:00:00','14:25:00', 144);
-INSERT INTO Corsa VALUES ('inverso', '15:00:00','16:25:00', 144);
-INSERT INTO Corsa VALUES ('diretto', '20:00:00','21:25:00', 144);
+INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('inverso', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('inverso', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('inverso', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('inverso', 'Accademia','Verona', 144);
+INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 144);
 INSERT INTO Corsa VALUES ('diretto', 'Accademia','Verona', 165);
 INSERT INTO Corsa VALUES ('inverso', 'Accademia','Verona', 165);
 INSERT INTO Corsa VALUES ('inverso', 'Accademia','Verona', 165);
