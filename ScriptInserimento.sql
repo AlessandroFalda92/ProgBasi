@@ -890,65 +890,51 @@ INSERT INTO Corsa VALUES ('inverso', '18:30:00','20:05:00', 138);
 
 --linea 154
 
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (154, 'Castelmassa', '07:40:00' , '08:10:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '07:40:00' , '08:04:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '07:40:00' , '07:58:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '07:40:00' , '07:52:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '07:40:00' , '07:46:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '07:40:00' , '07:40:00'); 
 
-INSERT INTO Corsa VALUES ('inverso', '07:40:00','08:10:00', 154);
+INSERT INTO C_F VALUES (154, 'Castelmassa', '06:35:00' , '06:35:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '06:35:00' , '06:42:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '06:35:00' , '06:49:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '06:35:00' , '06:54:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '06:35:00' , '07:08:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '06:35:00' , '07:12:00'); 
 
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (154, 'Castelmassa', '12:45:00' , '13:31:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '12:45:00' , '13:25:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '12:45:00' , '13:17:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '12:45:00' , '13:08:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '12:45:00' , '12:55:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '12:45:00' , '12:45:00'); 
 
-INSERT INTO Corsa VALUES ('diretto', '06:35:00','07:12:00', 154);
+INSERT INTO C_F VALUES (154, 'Castelmassa', '13:15:00' , '13:15:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '13:15:00' , '13:23:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '13:15:00' , '13:29:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '13:15:00' , '13:37:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '13:15:00' , '13:41:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '13:15:00' , '13:50:00'); 
 
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (154, 'Castelmassa', '14:45:00' , '14:45:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '14:45:00' , '14:52:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '14:45:00' , '15:00:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '14:45:00' , '15:09:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '14:45:00' , '20:18:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '14:45:00' , '15:27:00'); 
 
-INSERT INTO Corsa VALUES ('inverso', '12:45:00','13:31:00', 154);
+INSERT INTO C_F VALUES (154, 'Castelmassa', '13:50:00' , '14:32:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '13:50:00' , '14:21:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '13:50:00' , '14:15:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '13:50:00' , '14:08:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '13:50:00' , '13:59:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '13:50:00' , '13:50:00'); 
 
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
-
-INSERT INTO Corsa VALUES ('diretto', '13:15:00','13:50:00', 154);
-
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
-
-INSERT INTO Corsa VALUES ('diretto', '14:45:00','15:27:00', 154);
-
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
-
-INSERT INTO Corsa VALUES ('inverso', '13:50:00','14:32:00', 154);
-
-INSERT INTO C_F VALUES (154, 'Castelmassa', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (154, 'Torricella', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (154, 'Torretta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'La Rosta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (154, 'Vangadizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (154, 'Porto di Legnago', '20:00:00' , '20:15:00'); 
-
-INSERT INTO Corsa VALUES ('inverso', '18:05:00','19:10:00', 154);
+INSERT INTO C_F VALUES (154, 'Castelmassa', '18:05:00' , '19:10:00'); 
+INSERT INTO C_F VALUES (154, 'Torricella', '18:05:00' , '20:59:00'); 
+INSERT INTO C_F VALUES (154, 'Torretta', '18:05:00' , '18:47:00'); 
+INSERT INTO C_F VALUES (154, 'La Rosta' , '18:05:00' , '18:34:00' );
+INSERT INTO C_F VALUES (154, 'Vangadizza', '18:05:00' , '18:20:00'); 
+INSERT INTO C_F VALUES (154, 'Porto di Legnago', '18:05:00' , '18:05:00'); 
