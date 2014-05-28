@@ -164,15 +164,15 @@ INSERT INTO Fermata VALUES ('Vangadizza');
 --Generato da acquisto biglietto page
 
 --insert into C_F (Codice_Linea, Orario_Partenza, Nome, Orario) INT TIME VARCHAR TIME
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Verona-Piazza Bra'); d
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Pozzo'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Villafontana'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Bovolone'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Cerea'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Legnago-Autostazione'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Vigo'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Carpi'); 
-INSERT INTO C_F VALUES (144, '06:00:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Verona-Piazza Bra', '06:00:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Pozzo', '06:08:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Villafontana', '06:16:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Bovolone', '06:25:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Cerea', '06:38:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Legnago-Autostazione', '06:45:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Vigo', '06:56:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Carpi', '07:10:00'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Mena', '07:15:00'); 
 INSERT INTO C_F VALUES (144, '06:00:00' , 'Badia Polesine' , '07:25:00'); 
 
 INSERT INTO C_F VALUES (144, '06:45:00' , 'Verona-Piazza Bra'); i
