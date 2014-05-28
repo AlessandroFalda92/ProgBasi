@@ -6,7 +6,11 @@ CHECK(VALUE IN('diretto', 'inverso'));
 CREATE TABLE Biglietto (
 Cod_Emissione INT PRIMARY KEY, 
 Data_Emissione DATE NOT NULL, 
+<<<<<<< HEAD
 Data_Fine DATE , 
+=======
+Data_Fine DATE, 
+>>>>>>> 0bcf4a2d0c842a83b69a0111d090b979ae031d2b
 Data_Inizio DATE, 
 Importo INT NOT NULL,
 Tipo TIPO NOT NULL,
