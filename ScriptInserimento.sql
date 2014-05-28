@@ -163,6 +163,6 @@ INSERT INTO Fermata VALUES ('Vangadizza');
 
 --Generato da acquisto biglietto page
 
---insert into C_F (Codice_Linea, Nome, Orario)
+--insert into C_F (Codice_Linea, Orario_Partenza, Nome, Orario) INT TIME VARCHAR TIME
 INSERT INTO C_F VALUES (10, 'Univr','Treviso', 'tripla' , 'occupata');
 
