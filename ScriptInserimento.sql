@@ -376,135 +376,116 @@ INSERT INTO C_F VALUES (165, 'Garda' , '19:42:00' , '20:57:00' );
 
 --linea 110
 
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '06:45:00' , '08:05:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '06:45:00' , '07:57:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '06:45:00' , '07:49:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '06:45:00' , '07:40:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '06:45:00' , '07:34:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '06:45:00' , '07:24:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '06:45:00' , '07:18:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '06:45:00' , '07:10:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '06:45:00' , '06:55:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '06:45:00' , '06:45:00' );
 
-INSERT INTO Corsa VALUES ('inverso', '06:45:00','08:05:00', 110);
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '07:35:00' , '07:35:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '07:35:00' , '07:42:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '07:35:00' , '07:51:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '07:35:00' , '07:59:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '07:35:00' , '08:08:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '07:35:00' , '08:12:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '07:35:00' , '08:23:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '07:35:00' , '08:31:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '07:35:00' , '08:45:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '07:35:00' , '08:55:00' );
 
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '12:35:00' , '13:45:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '12:35:00' , '13:39:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '12:35:00' , '13:31:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '12:35:00' , '13:26:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '12:35:00' , '13:14:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '12:35:00' , '13:07:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '12:35:00' , '12:59:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '12:35:00' , '12:50:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '12:35:00' , '12:42:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '12:35:00' , '12:35:00' );
 
-INSERT INTO Corsa VALUES ('diretto', '07:35:00','08:55:00', 110);
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '13:05:00' , '13:05:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '13:05:00' , '13:12:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '13:05:00' , '13:20:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '13:05:00' , '13:27:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '13:05:00' , '13:34:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '13:05:00' , '13:41:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '13:05:00' , '13:50:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '13:05:00' , '14:02:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '13:05:00' , '14:17:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '13:05:00' , '14:25:00' );
 
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '13:55:00' , '13:55:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '13:55:00' , '14:09:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '13:55:00' , '14:18:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '13:55:00' , '14:26:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '13:55:00' , '14:35:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '13:55:00' , '14:42:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '13:55:00' , '14:49:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '13:55:00' , '14:58:00');  
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '13:55:00' , '15:05:00' );
 
-INSERT INTO Corsa VALUES ('inverso', '12:35:00','13:45:00', 110);
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '14:20:00' , '14:20:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '14:20:00' , '14:28:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '14:20:00' , '14:37:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '14:20:00' , '14:45:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '14:20:00' , '14:54:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '14:20:00' , '15:04:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '14:20:00' , '15:13:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '14:20:00' , '15:19:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '14:20:00' , '15:24:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '14:20:00' , '15:30:00' );
 
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '16:18:00' , '17:36:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '16:18:00' , '17:25:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '16:18:00' , '17:14:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '16:18:00' , '17:06:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '16:18:00' , '16:59:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '16:18:00' , '16:51:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '16:18:00' , '16:43:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '16:18:00' , '16:31:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '16:18:00' , '16:25:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '16:18:00' , '16:18:00' );
 
-INSERT INTO Corsa VALUES ('diretto', '13:05:00','14:25:00', 110);
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '17:30:00' , '18:40:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '17:30:00' , '18:35:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '17:30:00' , '18:31:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '17:30:00' , '18:24:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '17:30:00' , '18:13:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '17:30:00' , '18:07:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '17:30:00' , '17:59:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '17:30:00' , '17:47:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '17:30:00' , '17:38:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '17:30:00' , '17:30:00' );
 
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '18:00:00' , '19:20:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '18:00:00' , '19:10:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '18:00:00' , '18:57:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '18:00:00' , '18:49:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '18:00:00' , '18:42:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '18:00:00' , '18:35:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '18:00:00' , '18:25:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '18:00:00' , '18:17:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '18:00:00' , '18:08:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '18:00:00' , '18:00:00' );
 
-INSERT INTO Corsa VALUES ('diretto', '13:55:00','15:05:00', 110);
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '19:35:00' , '19:35:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '19:35:00' , '19:42:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '19:35:00' , '19:51:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '19:35:00' , '20:00:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '19:35:00' , '20:08:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '19:35:00' , '20:14:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '19:35:00' , '20:21:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '19:35:00' , '20:30:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '19:35:00' , '20:42:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '19:35:00' , '20:53:00' );
 
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
 
-INSERT INTO Corsa VALUES ('diretto', '14:20:00','15:30:00', 110);
-
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
-
-INSERT INTO Corsa VALUES ('inverso', '16:18:00','17:36:00', 110);
-
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
-
-INSERT INTO Corsa VALUES ('inverso', '17:30:00','18:40:00', 110);
-
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
-
-INSERT INTO Corsa VALUES ('inverso', '18:00:00','19:20:00', 110);
-
-INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
-
-INSERT INTO Corsa VALUES ('diretto', '19:35:00','20:53:00', 110);
 
 --linea 136
 
