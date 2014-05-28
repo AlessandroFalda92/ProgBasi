@@ -107,6 +107,7 @@ INSERT INTO Fermata VALUES ('Vigo');
 INSERT INTO Fermata VALUES ('Carpi');
 INSERT INTO Fermata VALUES ('Mena');
 INSERT INTO Fermata VALUES ('Badia Polesine');
+
 INSERT INTO Fermata VALUES ('Verona-Aut. P.ta Nuova');
 INSERT INTO Fermata VALUES ('Bussolengo');
 INSERT INTO Fermata VALUES ('Parona');
@@ -116,6 +117,7 @@ INSERT INTO Fermata VALUES ('Calmasino');
 INSERT INTO Fermata VALUES ('Lazise');
 INSERT INTO Fermata VALUES ('Bardolino');
 INSERT INTO Fermata VALUES ('Garda');
+
 INSERT INTO Fermata VALUES ('San Felice');
 INSERT INTO Fermata VALUES ('S. Maria In Stelle');
 INSERT INTO Fermata VALUES ('Quinto');
@@ -125,6 +127,7 @@ INSERT INTO Fermata VALUES ('Albare');
 INSERT INTO Fermata VALUES ('Corbiolo');
 INSERT INTO Fermata VALUES ('BoscoChiesanuova');
 INSERT INTO Fermata VALUES ('Valdiporro');
+
 INSERT INTO Fermata VALUES ('Verona Corso Porta Nuova');
 INSERT INTO Fermata VALUES ('S. Zenone');
 INSERT INTO Fermata VALUES ('S. Michele');
@@ -137,10 +140,12 @@ INSERT INTO Fermata VALUES ('Cologna Veneta');
 INSERT INTO Fermata VALUES ('Montagnana');
 INSERT INTO Fermata VALUES ('Bevilacqua');
 INSERT INTO Fermata VALUES ('Boschi S. Anna');
+
 INSERT INTO Fermata VALUES ('Stallavena Di Grezzana');
 INSERT INTO Fermata VALUES ('La Rizza');
 INSERT INTO Fermata VALUES ('Beccacivetta');
 INSERT INTO Fermata VALUES ('Castel d^Azzano');
+
 INSERT INTO Fermata VALUES ('S. Martino');
 INSERT INTO Fermata VALUES ('Porto di Legnago');
 INSERT INTO Fermata VALUES ('Palazzina');
@@ -152,6 +157,7 @@ INSERT INTO Fermata VALUES ('Pilastro');
 INSERT INTO Fermata VALUES ('Bonavigo');
 INSERT INTO Fermata VALUES ('Minerbe');
 INSERT INTO Fermata VALUES ('S. Vito');
+
 INSERT INTO Fermata VALUES ('Castelmassa');
 INSERT INTO Fermata VALUES ('Torricella');
 INSERT INTO Fermata VALUES ('Torretta');
@@ -164,6 +170,9 @@ INSERT INTO Fermata VALUES ('Vangadizza');
 --Generato da acquisto biglietto page
 
 --insert into C_F (Codice_Linea, Orario_Partenza, Nome, Orario) INT TIME VARCHAR TIME
+
+--linea 144
+
 INSERT INTO C_F VALUES (144, 'Verona-Piazza Bra', '06:00:00' , '06:00:00'); 
 INSERT INTO C_F VALUES (144, 'Pozzo', '06:00:00' , '06:08:00'); 
 INSERT INTO C_F VALUES (144, 'Villafontana', '06:00:00' , '06:16:00'); 
@@ -263,25 +272,95 @@ INSERT INTO C_F VALUES (144, 'Badia Polesine' , '20:00:00' , '20:00:00' );
 
 
 
+--linea 165
+
+INSERT INTO C_F VALUES (165, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (165, 'Bussolengo', '20:00:00' , '21:14:00'); 
+INSERT INTO C_F VALUES (165, 'Parona', '20:00:00' , '21:06:00'); 
+INSERT INTO C_F VALUES (165, 'Ospedaletto', '20:00:00' , '20:54:00'); 
+INSERT INTO C_F VALUES (165, 'Ronchi', '20:00:00' , '20:41:00'); 
+INSERT INTO C_F VALUES (165, 'Calmasino', '20:00:00' , '20:33:00'); 
+INSERT INTO C_F VALUES (165, 'Lazise', '20:00:00' , '20:21:00'); 
+INSERT INTO C_F VALUES (165, 'Bardolino', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (165, 'Garda' , '20:00:00' , '20:00:00' );
+
+
+--linea 110
+
+INSERT INTO C_F VALUES (110, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (110, 'San Felice', '20:00:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (110, 'S. Maria In Stelle', '20:00:00' , '21:14:00'); 
+INSERT INTO C_F VALUES (110, 'Quinto', '20:00:00' , '21:06:00'); 
+INSERT INTO C_F VALUES (110, 'Lugo', '20:00:00' , '20:54:00'); 
+INSERT INTO C_F VALUES (110, 'Rosaro', '20:00:00' , '20:41:00'); 
+INSERT INTO C_F VALUES (110, 'Albare', '20:00:00' , '20:33:00'); 
+INSERT INTO C_F VALUES (110, 'Corbiolo', '20:00:00' , '20:21:00'); 
+INSERT INTO C_F VALUES (110, 'BoscoChiesanuova', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (110, 'Valdiporro' , '20:00:00' , '20:00:00' );
 
 
 
+--linea 136
+
+INSERT INTO C_F VALUES (136, 'Verona Corso Porta Nuova', '20:00:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (136, 'S. Michele', '20:00:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (136, 'Vago', '20:00:00' , '21:14:00'); 
+INSERT INTO C_F VALUES (136, 'Belfiore', '20:00:00' , '21:06:00'); 
+INSERT INTO C_F VALUES (136, 'Lugo', '20:00:00' , '20:54:00'); 
+INSERT INTO C_F VALUES (136, 'Soave', '20:00:00' , '20:41:00'); 
+INSERT INTO C_F VALUES (136, 'S. Bonifacio', '20:00:00' , '20:33:00'); 
+INSERT INTO C_F VALUES (136, 'Lonigo', '20:00:00' , '20:21:00'); 
+INSERT INTO C_F VALUES (136, 'Cologna Veneta', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (136, 'Montagnana' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (136, 'Bevilacqua', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (136, 'Boschi S. Anna' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (136 , 'S. Zenone' , 'Verona Corso Porta Nuova'); 
 
 
-INSERT INTO C_F VALUES (165, 55 , 'Garda' , 'Verona-Aut. P.ta Nuova'); 
+--linea 510
+
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
 
 
-INSERT INTO C_F VALUES (110, 90 , 'Valdiporro' , 'Verona-Aut. P.ta Nuova'); 
+--linea 138 
 
-
-INSERT INTO C_F VALUES (136, 120 , 'S. Zenone' , 'Verona Corso Porta Nuova'); 
-
-
-INSERT INTO C_F VALUES (510, 80 , 'La Rizza' , 'Stallavena Di Grezzana'); 
-
+INSERT INTO C_F VALUES (138, 'Verona-Aut. P.ta Nuova', '20:00:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (138, 'Vago', '20:00:00' , '21:14:00'); 
+INSERT INTO C_F VALUES (138, 'Belfiore', '20:00:00' , '21:06:00'); 
+INSERT INTO C_F VALUES (138, 'Lugo', '20:00:00' , '20:54:00'); 
+INSERT INTO C_F VALUES (138, 'Soave', '20:00:00' , '20:41:00'); 
+INSERT INTO C_F VALUES (138, 'S. Bonifacio', '20:00:00' , '20:33:00'); 
+INSERT INTO C_F VALUES (138, 'Lonigo', '20:00:00' , '20:21:00'); 
+INSERT INTO C_F VALUES (138, 'Cologna Veneta', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (138, 'Montagnana' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (138, 'Bevilacqua', '20:00:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (138, 'Boschi S. Anna' , '20:00:00' , '20:00:00' );
+INSERT INTO C_F VALUES (138 , 'S. Zenone' , 'Verona Corso Porta Nuova'); 
 
 INSERT INTO C_F VALUES (138, 75 , 'Porto di Legnago' , 'Verona-Aut. P.ta Nuova'); 
 
 
+
+INSERT INTO Fermata VALUES ('Palazzina');
+INSERT INTO Fermata VALUES ('Perzacco');
+INSERT INTO Fermata VALUES ('Albaro');
+INSERT INTO Fermata VALUES ('Ronco');
+INSERT INTO Fermata VALUES ('Albaredo');
+INSERT INTO Fermata VALUES ('Pilastro');
+INSERT INTO Fermata VALUES ('Bonavigo');
+INSERT INTO Fermata VALUES ('Minerbe');
+INSERT INTO Fermata VALUES ('S. Vito');
+
+
 INSERT INTO C_F VALUES (154, 30 ,'Porto di Legnago' , 'Castelmassa'); 
 
+INSERT INTO Fermata VALUES ('Castelmassa');
+INSERT INTO Fermata VALUES ('Torricella');
+INSERT INTO Fermata VALUES ('Torretta');
+INSERT INTO Fermata VALUES ('La Rosta');
+INSERT INTO Fermata VALUES ('Vangadizza');
