@@ -164,5 +164,138 @@ INSERT INTO Fermata VALUES ('Vangadizza');
 --Generato da acquisto biglietto page
 
 --insert into C_F (Codice_Linea, Orario_Partenza, Nome, Orario) INT TIME VARCHAR TIME
-INSERT INTO C_F VALUES (10, 'Univr','Treviso', 'tripla' , 'occupata');
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Verona-Piazza Bra'); d
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Pozzo'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Villafontana'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Bovolone'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Cerea'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Vigo'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Carpi'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '06:00:00' , 'Badia Polesine' , '07:25:00'); 
+
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Verona-Piazza Bra'); i
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Pozzo'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Villafontana'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Bovolone'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Cerea'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Vigo'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Carpi'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '06:45:00' , 'Badia Polesine' , '08:00:00'); 
+
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Verona-Piazza Bra'); d
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Pozzo'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Villafontana'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Bovolone'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Cerea'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Vigo'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Carpi'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '08.00:00' , 'Badia Polesine' , '09:25:00'); 
+
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Verona-Piazza Bra'); d
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Pozzo'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Villafontana'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Bovolone'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Cerea'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Vigo'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Carpi'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '08:45:00' , 'Badia Polesine' , '10:00:00'); 
+
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Verona-Piazza Bra'); i
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Pozzo'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Villafontana'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Bovolone'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Cerea'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Vigo'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Carpi'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '09:10:00' , 'Badia Polesine' , '10:35:00');
+
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Verona-Piazza Bra'); d
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Pozzo'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Villafontana'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Bovolone'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Cerea'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Vigo'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Carpi'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Mena'); 
+INSERT INTO C_F VALUES (144, '12:00:00' , 'Badia Polesine' , '13:25:00');
+
+INSERT INTO C_F VALUES (144, '13.05:00' , 'Verona-Piazza Bra'); 
+INSERT INTO C_F VALUES (144,   , 'Pozzo'); d
+INSERT INTO C_F VALUES (144,   , 'Villafontana'); 
+INSERT INTO C_F VALUES (144,   , 'Bovolone'); 
+INSERT INTO C_F VALUES (144,   , 'Cerea'); 
+INSERT INTO C_F VALUES (144,   , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144,   , 'Vigo'); 
+INSERT INTO C_F VALUES (144,   , 'Carpi'); 
+INSERT INTO C_F VALUES (144,   , 'Mena'); 
+INSERT INTO C_F VALUES (144,   , 'Badia Polesine' , '13:30:00');
+
+INSERT INTO C_F VALUES (144, '13.00:00' , 'Verona-Piazza Bra'); 
+INSERT INTO C_F VALUES (144,   , 'Pozzo'); i
+INSERT INTO C_F VALUES (144,   , 'Villafontana'); 
+INSERT INTO C_F VALUES (144,   , 'Bovolone'); 
+INSERT INTO C_F VALUES (144,   , 'Cerea'); 
+INSERT INTO C_F VALUES (144,   , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144,   , 'Vigo'); 
+INSERT INTO C_F VALUES (144,   , 'Carpi'); 
+INSERT INTO C_F VALUES (144,   , 'Mena'); 
+INSERT INTO C_F VALUES (144,   , 'Badia Polesine' , '14:25:00');
+
+INSERT INTO C_F VALUES (144, '15.00:00' , 'Verona-Piazza Bra'); i
+INSERT INTO C_F VALUES (144,   , 'Pozzo'); 
+INSERT INTO C_F VALUES (144,   , 'Villafontana'); 
+INSERT INTO C_F VALUES (144,   , 'Bovolone'); 
+INSERT INTO C_F VALUES (144,   , 'Cerea'); 
+INSERT INTO C_F VALUES (144,   , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144,   , 'Vigo'); 
+INSERT INTO C_F VALUES (144,   , 'Carpi'); 
+INSERT INTO C_F VALUES (144,   , 'Mena'); 
+INSERT INTO C_F VALUES (144,   , 'Badia Polesine' , '16:25:00');
+
+INSERT INTO C_F VALUES (144, '20.00:00' , 'Verona-Piazza Bra'); i
+INSERT INTO C_F VALUES (144,   , 'Pozzo'); 
+INSERT INTO C_F VALUES (144,   , 'Villafontana'); 
+INSERT INTO C_F VALUES (144,   , 'Bovolone'); 
+INSERT INTO C_F VALUES (144,   , 'Cerea'); 
+INSERT INTO C_F VALUES (144,   , 'Legnago-Autostazione'); 
+INSERT INTO C_F VALUES (144,   , 'Vigo'); 
+INSERT INTO C_F VALUES (144,   , 'Carpi'); 
+INSERT INTO C_F VALUES (144,   , 'Mena'); 
+INSERT INTO C_F VALUES (144,   , 'Badia Polesine' , '21:25:00');
+
+
+
+
+
+
+
+
+
+INSERT INTO C_F VALUES (165, 55 , 'Garda' , 'Verona-Aut. P.ta Nuova'); 
+
+
+INSERT INTO C_F VALUES (110, 90 , 'Valdiporro' , 'Verona-Aut. P.ta Nuova'); 
+
+
+INSERT INTO C_F VALUES (136, 120 , 'S. Zenone' , 'Verona Corso Porta Nuova'); 
+
+
+INSERT INTO C_F VALUES (510, 80 , 'La Rizza' , 'Stallavena Di Grezzana'); 
+
+
+INSERT INTO C_F VALUES (138, 75 , 'Porto di Legnago' , 'Verona-Aut. P.ta Nuova'); 
+
+
+INSERT INTO C_F VALUES (154, 30 ,'Porto di Legnago' , 'Castelmassa'); 
 
