@@ -489,19 +489,19 @@ INSERT INTO C_F VALUES (110, 'Valdiporro' , '19:35:00' , '20:53:00' );
 
 --linea 136
 
-INSERT INTO C_F VALUES (136, 'Verona Corso Porta Nuova', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (136, 'S. Michele', '20:00:00' , '21:19:00'); 
-INSERT INTO C_F VALUES (136, 'Vago', '20:00:00' , '21:14:00'); 
-INSERT INTO C_F VALUES (136, 'Belfiore', '20:00:00' , '21:06:00'); 
-INSERT INTO C_F VALUES (136, 'Lugo', '20:00:00' , '20:54:00'); 
-INSERT INTO C_F VALUES (136, 'Soave', '20:00:00' , '20:41:00'); 
-INSERT INTO C_F VALUES (136, 'S. Bonifacio', '20:00:00' , '20:33:00'); 
-INSERT INTO C_F VALUES (136, 'Lonigo', '20:00:00' , '20:21:00'); 
-INSERT INTO C_F VALUES (136, 'Cologna Veneta', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (136, 'Montagnana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (136, 'Bevilacqua', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (136, 'Boschi S. Anna' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (136 , 'S. Zenone' , 'Verona Corso Porta Nuova'); 
+INSERT INTO C_F VALUES (136, 'Verona Corso Porta Nuova', '06:20:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (136, 'S. Michele', '06:20:00' , '21:19:00'); 
+INSERT INTO C_F VALUES (136, 'Vago', '06:20:00' , '21:14:00'); 
+INSERT INTO C_F VALUES (136, 'Belfiore', '06:20:00' , '21:06:00'); 
+INSERT INTO C_F VALUES (136, 'Lugo', '06:20:00' , '20:54:00'); 
+INSERT INTO C_F VALUES (136, 'Soave', '06:20:00' , '20:41:00'); 
+INSERT INTO C_F VALUES (136, 'S. Bonifacio', '06:20:00' , '20:33:00'); 
+INSERT INTO C_F VALUES (136, 'Lonigo', '06:20:00' , '20:21:00'); 
+INSERT INTO C_F VALUES (136, 'Cologna Veneta', '06:20:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (136, 'Montagnana' , '06:20:00' , '20:00:00' );
+INSERT INTO C_F VALUES (136, 'Bevilacqua', '06:20:00' , '20:15:00'); 
+INSERT INTO C_F VALUES (136, 'Boschi S. Anna' , '06:20:00' , '20:00:00' );
+INSERT INTO C_F VALUES (136 , 'S. Zenone' , '' , '06:20:00'); 
 
 INSERT INTO Corsa VALUES ('inverso', '06:20:00','08:10:00', 136);
 
