@@ -12,7 +12,7 @@ INSERT INTO Cliente VALUES ('BRGNRC95B27L378O', 'Enrico', 'Brignano', '1995-02-2
 INSERT INTO Cliente VALUES ('LNFGRC86T52L736K', 'Federica', 'Lanfranchi', '1986-12-12' , 'Venezia' , 'Fe86', 'federica');
 INSERT INTO Cliente VALUES ('SHVRNI90D69Z149X', 'Irina', 'Shevchenko', '1990-04-29' , 'Zagabria' , 'Iri90', 'irina');
 INSERT INTO Cliente VALUES ('ZCCVCN96E08B180E', 'Vincenzo', 'Zucchelli', '1973-05-08' , 'Brindisi' , 'Vin73', 'vincenzo');
-INSERT INTO Cliente VALUES ('BMOBCK61M04A662E', 'Obama', 'Barack', '1961-08-04' , 'Honolulu' , 'Oba61' , 'obama');
+INSERT INTO Cliente VALUES ('BMOBCK61M04A662E', 'Barack', 'Obama', '1961-08-04' , 'Honolulu' , 'Oba61' , 'obama');
 
 --insert into Versamento (Data, Ora, Importo, CF)
 
