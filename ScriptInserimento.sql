@@ -652,95 +652,57 @@ INSERT INTO Corsa VALUES ('diretto', '17:52:00','18:38:00', 136);
 
 --linea 510
 
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '05:15:00' , '05:15:00' );
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '05:15:00' , '06:23:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '05:15:00', '06:28:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '5:15:00' , '06:32:00'); 
 
-INSERT INTO Corsa VALUES ('diretto', '05:15:00','06:32:00', 510);
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '06:15:00' , '07:32:00' );
+INSERT INTO C_F VALUES (510, 'La Rizza', '06:15:00' , '06:30:00'); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '06:15:00' , '06:50:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '06:15:00', '06:22:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '06:15:00', '06:15:00'); 
 
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '07:15:00' , '07:15:00' ); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '07:15:00' , '08:23:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '07:15:00', '08:28:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '07:15:00', '08:32:00'); 
 
-INSERT INTO Corsa VALUES ('inverso', '06:15:00','07:32:00', 510);
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '08:45:00' , '09:58:00' );
+INSERT INTO C_F VALUES (510, 'La Rizza', '08:45:00' , '08:56:00'); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '08:45:00' , '09:15:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '08:45:00', '08:52:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '08:45:00', '08:45:00'); 
 
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '09:45:00' , '09:45:00' );
+INSERT INTO C_F VALUES (510, 'La Rizza', '09:45:00' , '11:02:00'); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '09:45:00' , '10:53:00' ); 
 
-INSERT INTO Corsa VALUES ('diretto', '07:15:00','08:32:00', 510);
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '11:45:00' , '11:45:00' );
+INSERT INTO C_F VALUES (510, 'La Rizza', '11:45:00' , '13:02:00'); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '11:45:00' , '12:53:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '11:45:00', '12:56:00'); 
 
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '13:15:00' , '13:15:00' );
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '13:15:00' , '14:23:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '13:15:00', '14:28:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '13:15:00', '14:32:00'); 
 
-INSERT INTO Corsa VALUES ('inverso', '08:45:00','09:58:00', 510);
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '15:15:00' , '16:26:00' );
+INSERT INTO C_F VALUES (510, 'La Rizza', '15:15:00' , '15:30:00'); 
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '15:15:00' , '15:50:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '15:15:00', '15:22:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '15:15:00', '15:15:00'); 
 
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '16:15:00' , '16:15:00' );
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '16:15:00' , '17:23:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '16:15:00', '17:28:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '16:15:00', '17:26:00'); 
 
-INSERT INTO Corsa VALUES ('diretto', '09:45:00','10:58:00', 510);
-
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
-
-INSERT INTO Corsa VALUES ('diretto', '11:45:00','13:02:00', 510);
-
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
-
-INSERT INTO Corsa VALUES ('diretto', '13:15:00','14:32:00', 510);
-
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
-
-INSERT INTO Corsa VALUES ('inverso', '15:15:00','16:26:00', 510);
-
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
-
-INSERT INTO Corsa VALUES ('diretto', '16:15:00','17:26:00', 510);
-
-INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'La Rizza', '20:00:00' , '20:15:00'); 
-INSERT INTO C_F VALUES (510, 'Beccacivetta' , '20:00:00' , '20:00:00' );
-INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'S. Martino' , 'Stallavena Di Grezzana'); 
-INSERT INTO C_F VALUES (510, 'Porto di Legnago' , 'Stallavena Di Grezzana'); 
-
-INSERT INTO Corsa VALUES ('diretto', '18:15:00','19:26:00', 510);
+INSERT INTO C_F VALUES (510, 'Stallavena Di Grezzana' , '18:15:00' , '18:15:00' );
+INSERT INTO C_F VALUES (510, 'Beccacivetta' , '18:15:00' , '19:23:00' );
+INSERT INTO C_F VALUES (510, 'Castel d^Azzano' , '18:15:00', '19:28:00'); 
+INSERT INTO C_F VALUES (510, 'S. Martino' , '18:15:00', '19:26:00'); 
 
 
 
