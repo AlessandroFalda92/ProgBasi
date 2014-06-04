@@ -27,6 +27,8 @@
 				<br/><br/>
 				<b><a href=?ps=mail> Iscrizione alla Mailing list </a></b>
 			</p></div>
+            <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+            Copyright © W3Schools.com</div>
 		</body>
 
 </html>
