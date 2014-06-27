@@ -3,6 +3,18 @@ CHECK(VALUE IN('c_s', 'c_ar' ,'a_s' ,'a_m'));
 CREATE DOMAIN MARCIA as VARCHAR(7)
 CHECK(VALUE IN('diretto', 'inverso'));
 
+CREATE TABLE Fermata(
+Nome VARCHAR(40) PRIMARY KEY);
+
+CREATE TABLE Cliente (
+CF VARCHAR(16) PRIMARY KEY,
+Nome VARCHAR(40) NOT NULL, 
+Cognome VARCHAR(40) NOT NULL, 
+Data_Nascita DATE NOT NULL, 
+Comune VARCHAR(40) NOT NULL, 
+Login VARCHAR(40) NOT NULL,
+Psw VARCHAR(40) NOT NULL);
+
 CREATE TABLE Biglietto (
 Cod_Emissione INT PRIMARY KEY, 
 Data_Emissione DATE NOT NULL, 
@@ -14,15 +26,6 @@ CF VARCHAR(16) NOT NULL REFERENCES Cliente(CF),
 CF_Abb VARCHAR(16) REFERENCES Cliente(CF),
 Nome_P VARCHAR(40) NOT NULL REFERENCES Fermata(Nome),
 Nome_A VARCHAR(40) NOT NULL REFERENCES Fermata(Nome));
-
-CREATE TABLE Cliente (
-CF VARCHAR(16) PRIMARY KEY,
-Nome VARCHAR(40) NOT NULL, 
-Cognome VARCHAR(40) NOT NULL, 
-Data_Nascita DATE NOT NULL, 
-Comune VARCHAR(40) NOT NULL, 
-Login VARCHAR(40) NOT NULL,
-Psw VARCHAR(40) NOT NULL);
 
 CREATE TABLE Versamento (
 Data DATE NOT NULL, 
@@ -43,9 +46,6 @@ Orario_Partenza TIME NOT NULL,
 Orario_Arrivo TIME NOT NULL,
 Codice INT REFERENCES Linea(Codice),
 PRIMARY KEY(Orario_Partenza,Codice));
-
-CREATE TABLE Fermata(
-Nome VARCHAR(40) PRIMARY KEY);
 
 CREATE TABLE B_L(
 Cod_Emissione INT REFERENCES Biglietto(Cod_Emissione),

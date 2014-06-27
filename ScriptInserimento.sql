@@ -2,6 +2,75 @@
 
 --Generato da acquisto biglietto page
 
+--insert into Fermata (Nome) VARCHAR(40) -> OK
+INSERT INTO Fermata VALUES ('Pozzo');
+INSERT INTO Fermata VALUES ('Villafontana');
+INSERT INTO Fermata VALUES ('Bovolone');
+INSERT INTO Fermata VALUES ('Cerea');
+INSERT INTO Fermata VALUES ('Legnago-Autostazione');
+INSERT INTO Fermata VALUES ('Verona-Piazza Bra');
+INSERT INTO Fermata VALUES ('Vigo');
+INSERT INTO Fermata VALUES ('Carpi');
+INSERT INTO Fermata VALUES ('Mena');
+INSERT INTO Fermata VALUES ('Badia Polesine');
+
+INSERT INTO Fermata VALUES ('Verona-Aut. P.ta Nuova');
+INSERT INTO Fermata VALUES ('Bussolengo');
+INSERT INTO Fermata VALUES ('Parona');
+INSERT INTO Fermata VALUES ('Ospedaletto');
+INSERT INTO Fermata VALUES ('Ronchi');
+INSERT INTO Fermata VALUES ('Calmasino');
+INSERT INTO Fermata VALUES ('Lazise');
+INSERT INTO Fermata VALUES ('Bardolino');
+INSERT INTO Fermata VALUES ('Garda');
+
+INSERT INTO Fermata VALUES ('San Felice');
+INSERT INTO Fermata VALUES ('S. Maria In Stelle');
+INSERT INTO Fermata VALUES ('Quinto');
+INSERT INTO Fermata VALUES ('Lugo');
+INSERT INTO Fermata VALUES ('Rosaro');
+INSERT INTO Fermata VALUES ('Albare');
+INSERT INTO Fermata VALUES ('Corbiolo');
+INSERT INTO Fermata VALUES ('BoscoChiesanuova');
+INSERT INTO Fermata VALUES ('Valdiporro');
+
+INSERT INTO Fermata VALUES ('Verona Corso Porta Nuova');
+INSERT INTO Fermata VALUES ('S. Zenone');
+INSERT INTO Fermata VALUES ('S. Michele');
+INSERT INTO Fermata VALUES ('Vago');
+INSERT INTO Fermata VALUES ('Belfiore');
+INSERT INTO Fermata VALUES ('Soave');
+INSERT INTO Fermata VALUES ('S. Bonifacio');
+INSERT INTO Fermata VALUES ('Lonigo');
+INSERT INTO Fermata VALUES ('Cologna Veneta');
+INSERT INTO Fermata VALUES ('Montagnana');
+INSERT INTO Fermata VALUES ('Bevilacqua');
+INSERT INTO Fermata VALUES ('Boschi S. Anna');
+
+INSERT INTO Fermata VALUES ('Stallavena Di Grezzana');
+INSERT INTO Fermata VALUES ('La Rizza');
+INSERT INTO Fermata VALUES ('Beccacivetta');
+INSERT INTO Fermata VALUES ('Castel d^Azzano');
+
+INSERT INTO Fermata VALUES ('S. Martino');
+INSERT INTO Fermata VALUES ('Porto di Legnago');
+INSERT INTO Fermata VALUES ('Palazzina');
+INSERT INTO Fermata VALUES ('Perzacco');
+INSERT INTO Fermata VALUES ('Albaro');
+INSERT INTO Fermata VALUES ('Ronco');
+INSERT INTO Fermata VALUES ('Albaredo');
+INSERT INTO Fermata VALUES ('Pilastro');
+INSERT INTO Fermata VALUES ('Bonavigo');
+INSERT INTO Fermata VALUES ('Minerbe');
+INSERT INTO Fermata VALUES ('S. Vito');
+
+INSERT INTO Fermata VALUES ('Castelmassa');
+INSERT INTO Fermata VALUES ('Torricella');
+INSERT INTO Fermata VALUES ('Torretta');
+INSERT INTO Fermata VALUES ('La Rosta');
+INSERT INTO Fermata VALUES ('Vangadizza');
+
+
 --insert into Cliente (CF, Nome, Cognome, Data_Nascita, Comune, Login, Psw) VARCHAR(40) VARCHAR(40) VARCHAR(40) DATE VARCHAR(40) VARCHAR(40) VARCHAR(40) -> OK
 INSERT INTO Cliente VALUES ('PCCRNT88H05B304K', 'Renato', 'Piccolo', '1988-06-05' , 'Buttapietra' , 'Re68' , 'renato');
 INSERT INTO Cliente VALUES ('MRNLRT92M14E512L', 'Alberto', 'Marini', '1992-08-14' , 'Legnago' , 'Al92', 'alberto');
@@ -136,74 +205,6 @@ INSERT INTO Corsa VALUES ('diretto', '13:15:00','13:50:00', 154);
 INSERT INTO Corsa VALUES ('diretto', '14:45:00','15:27:00', 154);
 INSERT INTO Corsa VALUES ('inverso', '13:50:00','14:32:00', 154);
 INSERT INTO Corsa VALUES ('inverso', '18:05:00','19:10:00', 154);
-
---insert into Fermata (Nome) VARCHAR(40) -> OK
-INSERT INTO Fermata VALUES ('Pozzo');
-INSERT INTO Fermata VALUES ('Villafontana');
-INSERT INTO Fermata VALUES ('Bovolone');
-INSERT INTO Fermata VALUES ('Cerea');
-INSERT INTO Fermata VALUES ('Legnago-Autostazione');
-INSERT INTO Fermata VALUES ('Verona-Piazza Bra');
-INSERT INTO Fermata VALUES ('Vigo');
-INSERT INTO Fermata VALUES ('Carpi');
-INSERT INTO Fermata VALUES ('Mena');
-INSERT INTO Fermata VALUES ('Badia Polesine');
-
-INSERT INTO Fermata VALUES ('Verona-Aut. P.ta Nuova');
-INSERT INTO Fermata VALUES ('Bussolengo');
-INSERT INTO Fermata VALUES ('Parona');
-INSERT INTO Fermata VALUES ('Ospedaletto');
-INSERT INTO Fermata VALUES ('Ronchi');
-INSERT INTO Fermata VALUES ('Calmasino');
-INSERT INTO Fermata VALUES ('Lazise');
-INSERT INTO Fermata VALUES ('Bardolino');
-INSERT INTO Fermata VALUES ('Garda');
-
-INSERT INTO Fermata VALUES ('San Felice');
-INSERT INTO Fermata VALUES ('S. Maria In Stelle');
-INSERT INTO Fermata VALUES ('Quinto');
-INSERT INTO Fermata VALUES ('Lugo');
-INSERT INTO Fermata VALUES ('Rosaro');
-INSERT INTO Fermata VALUES ('Albare');
-INSERT INTO Fermata VALUES ('Corbiolo');
-INSERT INTO Fermata VALUES ('BoscoChiesanuova');
-INSERT INTO Fermata VALUES ('Valdiporro');
-
-INSERT INTO Fermata VALUES ('Verona Corso Porta Nuova');
-INSERT INTO Fermata VALUES ('S. Zenone');
-INSERT INTO Fermata VALUES ('S. Michele');
-INSERT INTO Fermata VALUES ('Vago');
-INSERT INTO Fermata VALUES ('Belfiore');
-INSERT INTO Fermata VALUES ('Soave');
-INSERT INTO Fermata VALUES ('S. Bonifacio');
-INSERT INTO Fermata VALUES ('Lonigo');
-INSERT INTO Fermata VALUES ('Cologna Veneta');
-INSERT INTO Fermata VALUES ('Montagnana');
-INSERT INTO Fermata VALUES ('Bevilacqua');
-INSERT INTO Fermata VALUES ('Boschi S. Anna');
-
-INSERT INTO Fermata VALUES ('Stallavena Di Grezzana');
-INSERT INTO Fermata VALUES ('La Rizza');
-INSERT INTO Fermata VALUES ('Beccacivetta');
-INSERT INTO Fermata VALUES ('Castel d^Azzano');
-
-INSERT INTO Fermata VALUES ('S. Martino');
-INSERT INTO Fermata VALUES ('Porto di Legnago');
-INSERT INTO Fermata VALUES ('Palazzina');
-INSERT INTO Fermata VALUES ('Perzacco');
-INSERT INTO Fermata VALUES ('Albaro');
-INSERT INTO Fermata VALUES ('Ronco');
-INSERT INTO Fermata VALUES ('Albaredo');
-INSERT INTO Fermata VALUES ('Pilastro');
-INSERT INTO Fermata VALUES ('Bonavigo');
-INSERT INTO Fermata VALUES ('Minerbe');
-INSERT INTO Fermata VALUES ('S. Vito');
-
-INSERT INTO Fermata VALUES ('Castelmassa');
-INSERT INTO Fermata VALUES ('Torricella');
-INSERT INTO Fermata VALUES ('Torretta');
-INSERT INTO Fermata VALUES ('La Rosta');
-INSERT INTO Fermata VALUES ('Vangadizza');
 
 
 --insert into B_L (Cod_Emissione, Codice_Linea) 
