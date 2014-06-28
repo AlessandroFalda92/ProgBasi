@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="ClienteBean" table="cliente">
+        <!-- Identificatore. -->
+        <id name="CF" column="CF"/>
+        <!-- Proprieta'. -->
+        <property name="Nome" column="nome" not-null="true"/>    
+        <property name="Cognome" column="cognome" not-null="true"/>
+        <property name="Data_Nascita" column="data_nascita" not-null="true"/>
+        <property name="Comune" column="comune" not-null="true"/>
+        <property name="Login" column="login" not-null="true"/>
+        <property name="Psw" column="psw" not-null="true"/>
+        
+        <!-- Relazione tra Cliente(1,n) e Biglietto(1,1). -->
+        <set name="bigliettiacquistati" table="biglietto" lazy="true">
+            <key column="cf"/>
+            <one-to-many class="BigliettoBean"/>
+        </set>
+        
+        <!-- Relazione tra Cliente(1,n) e Biglietto(0,1). -->
+        <set name="bigliettiacquistatiopz" table="biglietto" lazy="true">
+            <key column="cf"/>
+            <one-to-many class="BigliettoBean"/>
+        </set>
+        
+        <!-- Relazione tra Cliente(1,n) e Versamento(1,1). -->
+        <set name="versamenti" table="versamento" lazy="true">
+            <key column="cf"/>
+            <one-to-many class="VersamentoBean"/>
+        </set>
+    </class>
+</hibernate-mapping>

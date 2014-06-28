@@ -47,17 +47,36 @@ public class ServletFermata extends HttpServlet {
 			out.println("      \"http://www.w3.org/TR/REC-html40/loose.dtd\">");
 			out.println("<html>");
 			out.println("<head>");
+			out.println("	<title>FAMA TRASPORTI</title>");
+			out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"../page.css\" />");
+			out.println("</head>");
 			
 			// Determino la pagina da visualizzare
 			if (id.equals("")) {           //recupero e visualizzo tutti i corsi di studio disponibili
-				
-                out.println("<title>Corsi di Studio Esistenti</title>");
-				out.println("</head>");
-				out.println("<body>");
-				out.println("<h1>Corsi di Studio Esistenti:</h1>");
+
+				out.println("<body scroll=\"no\">");
+				out.println("<div id=\"container\" style=\"width:100%\">");
+
+				out.println("<div id=\"header\" style=\"background-color:#ABCDEF;width:70%;height:30%;float:left;\">");
+				out.println("<p><h1> FAMA TRASPORTI </h1></p></div>");
+				//out.print("<br/><br/></div>");
+				out.print("<div id=\"login\" style=\"background-color:#ABCDEF;width:30%;height:30%;float:right;\">");
+				out.println("<p><h1> LOGIN </h1></p></div>");
+				out.println("<div id=\"content\" style=\"background-color:#EEEEEE;height:70%;width:100%;float:left;\">");
+				out.println("<br/><br/><h1>Corsi di Studio Esistenti:</h1>");
 				out.println("<table>");
 				out.println("<tr><th>Codice</th><th>Nome</th></tr>");
-
+				out.println("<p>");
+				out.println("<img src=\"../logo-univr.png\" width=\"300\" height=\"200\" alt=\"Univr-Logo\">");
+				out.println("</p>");
+				out.println("<p>");
+				out.println("<b>Contatti: <br/> Strade Le Grazie 15 - 37134 VR </a><br/></b>");
+				out.println("<br/><b>Numero di Telefono</b>: 0458027033<br/>");
+				out.println("<br/><b>Numero di fax</b>: 0458027025");
+				out.println("<br/><br/>");
+				out.println("<b><a href=mailto:segreteria.di@ateneo.univr.it> segreteria.di@ateneo.univr.it </a></b>");
+				out.println("<br/><br/>");
+				
 				List<FermataBean> css = dbms.getNome();
 							
 				
@@ -67,6 +86,12 @@ public class ServletFermata extends HttpServlet {
 				}
 	
 				out.println("</table>");
+				
+				out.println("<b><a href=?ps=or> Orari </a></b>");
+				out.println("<br/><br/>");
+				out.println("</p></div>");
+				out.println("<div id=\"footer\" style=\"background-color:#ABCDEF;clear:both;text-align:center;\">");
+				out.println("Copyright © FAMA Trasporti</div>");
 				
 			//Termino la pagina HTML
 			out.println("</body>");

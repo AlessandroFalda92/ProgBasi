@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="BigliettoBean" table="biglietto">
+        <!-- Identificatore. -->
+        <id name="Cod_Emissione" column="cod_emissione"/>
+        <!-- Proprieta'. -->
+        <property name="Data_Emissione" column="data_emissione" not-null="true"/>
+        <property name="Data_Fine" column="data_fine" not-null="true"/>    
+        <property name="Data_Inizio" column="data_inizio" not-null="true"/>    
+        <property name="Importo" column="importo" not-null="true"/>    
+        <property name="Tipo" column="tipo" not-null="true"/>      
+        
+        <!-- Relazione tra Biglietto(1,n) e Linea(1,n). --> 
+		 <set name="Linea" table="b_l" lazy="true" fetch="select" cascade="all"> 
+		 <key column="cod_emissione" not-null="true"/> 
+		 <many-to-many column="codice_linea" class="LineaBean"/> 
+		 </set>    
+		 
+        <!-- Relazione tra Biglietto(1,1) e Cliente(1,n). -->
+        <many-to-one name="cliente" column="cf" />
+   
+        <!-- Relazione tra Biglietto(1,1) e Fermata(1,n). -->
+        <many-to-one name="fermataandata" column="nome" />
+    
+        <!-- Relazione tra Biglietto(1,1) e Fermata(1,n). -->
+        <many-to-one name="fermataritorno" column="nome" />
+		 
+		<!-- Relazione tra Biglietto(0,1) e Cliente(0,n). -->
+        <many-to-one name="clienteopz" column="nome" />
+    </class>
+</hibernate-mapping>

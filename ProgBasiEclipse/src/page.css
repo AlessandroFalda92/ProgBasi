@@ -1,0 +1,46 @@
+body{
+
+    text-align: center;
+    background-color: #6397D0;
+
+}
+
+table{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 0px;
+
+}    
+
+ul{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 70%; 
+
+}
+
+ol{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+input{
+
+    text-align: left;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+form{
+
+    text-align: center;
+
+}
