@@ -1,10 +1,13 @@
 import java.io.Serializable;
+import java.sql.Time;
+import java.sql.Date;
 import java.util.*;
 
 public class VersamentoBean implements Serializable{
 	
-	public String Data;
-	public String Ora;
+	public String CF;
+	public Date Data;
+	public Time Ora;
 	public String Importo;
 	private ClienteBean clienteversamento;
 	
@@ -15,27 +18,35 @@ public class VersamentoBean implements Serializable{
 		clienteversamento=new ClienteBean();
 	}
 
+	public void SetCF(String g){
+		CF= g;
+	}
+	
 	public void setFermataAndata(ClienteBean n) {
 		clienteversamento = n;
+	}
+	
+	public String getCF(){
+		return CF;
 	}
 	
 	public ClienteBean getFermataAndata() {
 		return clienteversamento;
 	}
 	
-	public String getData() {
+	public Date getData() {
 		return Data;
 	}
 
-	public void setData(String data) {
+	public void setData(Date data) {
 		Data = data;
 	}
 
-	public String getOra() {
+	public Time getOra() {
 		return Ora;
 	}
 
-	public void setOra(String ora) {
+	public void setOra(Time ora) {
 		Ora = ora;
 	}
 

@@ -9,8 +9,10 @@
          <!-- Relazione tra Fermata(1,n) e Corsa(1,n). --> 
 		 <set name="Corsa" table="c_f" lazy="true" fetch="select" cascade="all"> 
 		 <key column="nome" not-null="true"/>
-		 <many-to-many column="orario_partenza" class="CorsaBean"/>
-	<!--  	 <many-to-many column="codice_linea" class="CorsaBean"/> -->
+		 <many-to-many class="CorsaBean"> 
+		 <column name="orario_partenza"/>
+		 <column name="codice_linea"/>
+		 </many-to-many>
 		 </set>
 		<!-- Relazione tra Fermata(1,n) e Biglietto(1,1). -->
         <set name="bigliettoandata" table="biglietto" lazy="true">

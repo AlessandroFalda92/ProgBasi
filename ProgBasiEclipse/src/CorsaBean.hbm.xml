@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
 <hibernate-mapping>
     <class name="CorsaBean" table="corsa">
         <!-- Identificatore. -->
-        <composite-id class="String" name="key">
-        <key-property name="Orario_Partenza" column="orario_partenza"/>
-        <key-property name="Codice" column="codice"/>
+        <composite-id name="CorsaBean" class="CorsaBean">
+        <key-property name="Orario_Partenza" column="orario_partenza" type="java.sql.time"/>
+        <key-property name="Codice" column="codice" type="integer"/>
         </composite-id>
         <!-- Proprieta'. -->
         <property name="Orario_Arrivo" column="orario_arrivo" not-null="true"/>     
@@ -14,9 +15,11 @@
         
          <!-- Relazione tra Corsa(1,n) e Fermata(1,n). --> 
 		 <set name="Fermata" table="c_f" lazy="true" fetch="select" cascade="all"> 
-		 <key column="orario_partenza" not-null="true"/> 
-		 <!--  <key column="codice_linea" not-null="true"/>  -->
-		 <many-to-many column="nome" class=FermataBean"/> 
+		 <key>
+		 <column name="orario_partenza" not-null="true"/>  
+		 <column name="codice_linea" not-null="true"/>
+		 </key>
+		 <many-to-many column="nome" class="FermataBean"/> 
 		 </set>    
 		 
         <!-- Relazione tra Corsa(1,1) e Linea(1,n). -->

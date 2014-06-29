@@ -8,7 +8,7 @@
     <property name="hibernate.connection.username">postgres</property>
     <property name="hibernate.connection.password">dueV7</property>
     <mapping resource="FermataBean.hbm.xml"/>
-    <mapping resource="BibliettoBean.hbm.xml"/>    
+    <mapping resource="BigliettoBean.hbm.xml"/>    
     <mapping resource="ClienteBean.hbm.xml"/>
     <mapping resource="CorsaBean.hbm.xml"/>
     <mapping resource="LineaBean.hbm.xml"/>

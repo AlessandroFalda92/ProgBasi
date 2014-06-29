@@ -4,7 +4,7 @@
 <hibernate-mapping>
     <class name="VersamentoBean" table="versamento">
         <!-- Identificatore. -->
-        <composite-id class="String" name="key">
+        <composite-id class="VersamentoBean" name="key">
         <key-property name="Data" column="data"/>
         <key-property name="Ora" column="ora"/>
         <key-property name="CF" column="cf"/>

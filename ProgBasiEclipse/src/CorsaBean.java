@@ -1,17 +1,20 @@
 import java.io.Serializable;
+import java.sql.Time;
 import java.util.*;
 
-import javafx.scene.shape.Line;
 
 public class CorsaBean implements Serializable{
 	
+	private int Codice;
 	public String Senso_Marcia;
-	public String Orario_Partenza;
-	public String Orario_Arrivo;
+	public Time Orario_Partenza;
+	public Time Orario_Arrivo;
     private Set<FermataBean> Fermata;
     private LineaBean linea;
 	
 	public CorsaBean(){
+		
+		Codice=0;
 		Senso_Marcia=null;
 		Orario_Arrivo=null;
 		Orario_Partenza=null;
@@ -19,9 +22,17 @@ public class CorsaBean implements Serializable{
         linea= new LineaBean();
 	}
 	
+	public void setid(int d){
+		Codice= d;
+	}
+	
 	public void setLinea(LineaBean n) {
 		linea = n;
 	}
+	
+	public int getId(){
+		return Codice;
+		}
 	
 	public LineaBean getLinea() {
 		return linea;
@@ -35,19 +46,19 @@ public class CorsaBean implements Serializable{
 		Senso_Marcia = senso_Marcia;
 	}
 
-	public String getOrario_Partenza() {
+	public Time getOrario_Partenza() {
 		return Orario_Partenza;
 	}
 
-	public void setOrario_Partenza(String orario_Partenza) {
+	public void setOrario_Partenza(Time orario_Partenza) {
 		Orario_Partenza = orario_Partenza;
 	}
 
-	public String getOrario_Arrivo() {
+	public Time getOrario_Arrivo() {
 		return Orario_Arrivo;
 	}
 
-	public void setOrario_Arrivo(String orario_Arrivo) {
+	public void setOrario_Arrivo(Time orario_Arrivo) {
 		Orario_Arrivo = orario_Arrivo;
 	}
 	
