@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="PRB.FermataBean" table="fermata">
+		<id name="nome" column="nome"/>
+		
+		<!-- Relazione tra Fermata(0,n) e Linea(1,1). -->
+        <set name="lineapartenza" table="Linea" lazy="true">
+            <key column="nome_a"/>
+            <one-to-many class="PRB.LineaBean"/>
+        </set>
+        
+        <!-- Relazione tra Fermata(0,n) e Linea(1,1). -->
+        <set name="lineaarrivo" table="Linea" lazy="true">
+            <key column="nome_p"/>
+            <one-to-many class="PRB.LineaBean"/>
+        </set>
+	</class>
+</hibernate-mapping>

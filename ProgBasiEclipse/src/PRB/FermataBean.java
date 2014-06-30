@@ -1,3 +1,5 @@
+package PRB;
+
 import java.io.Serializable;
 import java.util.*;
 
@@ -5,17 +7,17 @@ import java.util.*;
 public class FermataBean implements Serializable {
 
 	private String nome;
-    private Set<CorsaBean> Corsa;
+    /*private Set<CorsaBean> Corsa;
     private Set<BigliettoBean> bigliettoandata;
-    private Set<BigliettoBean> bigliettoritorno;
+    private Set<BigliettoBean> bigliettoritorno;*/
     private Set<LineaBean> lineapartenza;
     private Set<LineaBean> lineaarrivo;
     
 	public FermataBean(){
 		nome=null;
-        Corsa = new HashSet<CorsaBean>();
+        /*Corsa = new HashSet<CorsaBean>();
         bigliettoandata = new HashSet<BigliettoBean>();
-        bigliettoritorno = new HashSet<BigliettoBean>();
+        bigliettoritorno = new HashSet<BigliettoBean>();*/
         lineapartenza = new HashSet<LineaBean>();
         lineaarrivo = new HashSet<LineaBean>();
 	}
@@ -28,7 +30,7 @@ public class FermataBean implements Serializable {
 		return nome;
 	}
 	
-	public void setBigliettoAndata(Set<BigliettoBean> andata) {
+	/*public void setBigliettoAndata(Set<BigliettoBean> andata) {
 		bigliettoandata = andata;
 	}
 	
@@ -50,7 +52,7 @@ public class FermataBean implements Serializable {
 	
     public Set<CorsaBean> getCorsa() {
         return Corsa;
-    }
+    }*/
     
 	public void setLineaPartenza(Set<LineaBean> partenza) {
 		lineapartenza = partenza;

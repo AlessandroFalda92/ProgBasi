@@ -1,3 +1,4 @@
+package PRB;
 import java.io.Serializable;
 import java.util.*;
 
@@ -7,16 +8,16 @@ public class LineaBean implements Serializable{
 
 	public int Codice;
 	public float Durata_Media;
-	private Set<BigliettoBean> Biglietto;
-    private Set<CorsaBean> corse;
+	//private Set<BigliettoBean> Biglietto;
+    //private Set<CorsaBean> corse;
 	private FermataBean fermataarrivo;
 	private FermataBean fermatapartenza;
 	
 	public LineaBean(){
 		Codice=0;
 		Durata_Media=(float)0.0;
-        Biglietto = new HashSet<BigliettoBean>();
-        corse = new HashSet<CorsaBean>();
+        //Biglietto = new HashSet<BigliettoBean>();
+        //corse = new HashSet<CorsaBean>();
         fermatapartenza = new FermataBean();
         fermataarrivo = new FermataBean();
 	}
@@ -53,6 +54,7 @@ public class LineaBean implements Serializable{
 		Durata_Media = durata_Media;
 	}
 	
+	/*
     public Set<BigliettoBean> getBiglietto() {
         return Biglietto;
     }
@@ -67,5 +69,5 @@ public class LineaBean implements Serializable{
     
 	public void setCorse(Set<CorsaBean> corsa) {
 		corse = corsa;
-	}
+	}*/
 }

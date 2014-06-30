@@ -1,4 +1,4 @@
-
+package PRB;
 
 import org.hibernate.cfg.*;
 import org.hibernate.SessionFactory;
